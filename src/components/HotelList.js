@@ -197,13 +197,13 @@ const HotelList = ({ hotels }) => {
 
       <div className="flex flex-col justify-center items-center mt-4 w-full">
         <h1 className="font-bold">Otel Listesi</h1>
-        <hr className='border w-1/3 divide-slate-200 mt-1 mb-4' />
-        <div className="flex justify-between items-center w-1/3">
+        <hr className='border w-5/6 md:w-2/3 lg:w-2/4 xl:w-1/3 divide-slate-200 mt-1 mb-4' />
+        <div className="flex justify-between items-center w-5/6 md:w-2/3 lg:w-2/4 xl:w-1/3">
           <div className='flex justify-start items-center'>
             <button onClick={onCreate} className="w-8 h-8 border border-blue-400 rounded text-md text-blue-600 hover:bg-blue-600 hover:text-white transition duration-500 ease-in-out">+</button>
             <p className='font-semibold ml-2'>OTEL EKLE</p>
           </div>
-          <div className="w-2/5 mt-3 relative flex justify-between items-center p-2 border-2 rounded-md shadow-md">
+          <div className="w-2/4 md:w-2/5 mt-3 relative flex justify-between items-center p-2 border-2 rounded-md shadow-md">
             <div className='flex justify-start'>
               <BsArrowDownUp className='text-gray-500 text-lg font-semibold' />
               <p className='text-sm ml-2'>Sıralama</p>
